@@ -1,6 +1,6 @@
 # Star Wars Character Explorer
 
-Deployment link: [GitHub Pages](https://nikmaunt.github.io/currency-converter/)
+Deployment link: [GitHub Pages](https://nikmaunt.github.io/SWC)
 
 ## Objective
 
