@@ -2,6 +2,10 @@
 
 Deployment link: [GitHub Pages](https://nikmaunt.github.io/StarWarsCharactersExplorer/)
 
+## URL Routing Explanation
+
+The '#' symbol in the URL is utilized because of the use of `HashRouter` for GitHub Pages deployment. The '#' in the URL helps in maintaining client-side routing without triggering a full page reload.
+
 ## Objective
 
 Build a React application that allows users to explore Star Wars characters using React, Redux, and React Router. The application should have a main page with a list of characters that can be filtered based on various criteria. Additionally, each character should have a clickable link that navigates to a separate page with detailed information.
