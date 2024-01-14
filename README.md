@@ -1,6 +1,6 @@
 # Star Wars Character Explorer
 
-Deployment link: [GitHub Pages](https://nikmaunt.github.io/SWC)
+Deployment link: [GitHub Pages](https://nikmaunt.github.io/StarWarsCharactersExplorer/)
 
 ## Objective
 
@@ -44,7 +44,7 @@ You are allowed to use any external libraries to complete the assignment.
 
 ### Setup Instructions
 
-1. Clone the repository: `git clone https://github.com/your-username/star-wars-explorer.git`
+1. Clone the repository: `git clone https://github.com/Nikmaunt/StarWarsCharactersExplorer`
 2. Navigate to the project folder: `cd star-wars-explorer`
 3. Install dependencies: `npm install`
 4. Run the application: `npm start`
