@@ -51,6 +51,6 @@ You are allowed to use any external libraries to complete the assignment.
 1. Clone the repository: `git clone https://github.com/Nikmaunt/StarWarsCharactersExplorer`
 2. Navigate to the project folder: `cd star-wars-explorer`
 3. Install dependencies: `npm install`
-4. Run the application: `npm start`
+4. Run the application: `npm run dev`
 
 
