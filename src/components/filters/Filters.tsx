@@ -18,8 +18,8 @@ import {AppDispatch} from "@/Redux/store.ts";
 interface Movie {
     url: string;
     title: string;
-    // Add other properties if needed
 }
+
 interface FiltersProps {
     resetFilters: () => void;
     movies: Movie[];

@@ -16,7 +16,7 @@ interface MovieSelectProps {
         minMass: string | null;
         maxMass: string | null;
     };
-    movies: Movie[]; // Provide the correct type for movies
+    movies: Movie[];
     onMovieChange: (value: string) => void;
     movieTitle: string;
 }

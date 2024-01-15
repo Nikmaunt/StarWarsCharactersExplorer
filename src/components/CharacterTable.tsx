@@ -9,6 +9,7 @@ import {
     TableRow,
 } from "@/components/ui/table";
 import {isDisabled} from "@/helpers/constansts.tsx";
+
 interface Character {
     url: string;
     name: string;
@@ -18,8 +19,8 @@ interface Character {
 interface CharacterTableProps {
     characters: Character[];
 }
-const CharacterTable: React.FC<CharacterTableProps> = React.memo(({ characters }) => {
 
+const CharacterTable: React.FC<CharacterTableProps> = React.memo(({ characters }) => {
     return (
         <div className="w-full mt-12">
             <div className="rounded-md border">
