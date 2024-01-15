@@ -40,10 +40,6 @@ Build a React application that allows users to explore Star Wars characters usin
 - Choose a UI library of your choice to enhance the visual appeal and ensure a consistent design.
 - Ensure that the UI is responsive and works well on both desktop and mobile devices.
 
-## External Libraries
-
-You are allowed to use any external libraries to complete the assignment. 
-
 ## Documentation
 
 ### Setup Instructions
