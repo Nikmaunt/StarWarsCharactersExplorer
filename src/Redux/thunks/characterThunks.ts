@@ -24,8 +24,6 @@ export const fetchCharacterDetails = createAsyncThunk(
     async (id: string) => {
         try {
             const response = await api.get(`people/${id}/`);
-
-            // Fetch species details
             const speciesData = await Promise.all(
                 response.data.species.map((species: string) => api.get(species))
             );
