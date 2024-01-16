@@ -1,4 +1,3 @@
-// thunks.js
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import api from "@/api/api.ts";
 
@@ -32,7 +31,6 @@ export const fetchCharacterDetails = createAsyncThunk(
             );
             const speciesDetails = speciesData.map((species: any) => species.data);
 
-            // Fetch additional details for each species
             const speciesWithDetails = await Promise.all(
                 speciesDetails.map(async (species: any) => {
                     const speciesDetailsResponse = await api.get(species.url);
@@ -40,13 +38,11 @@ export const fetchCharacterDetails = createAsyncThunk(
                 })
             );
 
-            // Fetch movies details
             const moviesData = await Promise.all(
                 response.data.films.map((film: string) => api.get(film))
             );
             const moviesDetails = moviesData.map((movie: any) => movie.data);
 
-            // Fetch spaceships details
             const spaceshipsData = await Promise.all(
                 response.data.starships.map((spaceship: string) => api.get(spaceship))
             );
